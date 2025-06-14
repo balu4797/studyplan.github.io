@@ -90,3 +90,8 @@ footer {
   text-align: center;
   font-size: 18px;
 }
+img {
+  border: 2px solid #01274f;
+  border-radius:50%;
+
+}
