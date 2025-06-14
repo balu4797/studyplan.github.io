@@ -1,0 +1,131 @@
+body {
+  background-image: url("https://img.freepik.com/free-photo/abstract-background-light-steel-blue-wallpaper-image_53876-102530.jpg?semt=ais_hybrid&w=740");
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #eef5ff;
+}
+
+.calendar-container {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 80, 0.1);
+}
+
+#reminderForm {
+  background: #e6f0ff;
+  padding: 15px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+#reminderForm input,
+#reminderForm button {
+  padding: 10px;
+  margin: 5px 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+#reminderForm button {
+  background-color: #0033cc;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+header .left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+header select,
+header input {
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+header h2 {
+  margin: 0;
+  color: #002b80;
+}
+
+header button,
+.blue-btn,
+.export-btn {
+  padding: 8px 16px;
+  background-color: #002b80;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.calendar {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  margin-top: 20px;
+  gap: 8px;
+}
+
+.day-name {
+  font-weight: bold;
+  text-align: center;
+  color: #0040b3;
+}
+
+.day {
+  min-height: 100px;
+  background-color: #f0f5ff;
+  padding: 8px;
+  border-radius: 10px;
+  font-weight: bold;
+  color: #003380;
+  position: relative;
+}
+
+.day.empty {
+  background-color: transparent;
+}
+
+.event {
+  font-size: 12px;
+  background-color: #cce0ff;
+  color: #002060;
+  padding: 4px 6px;
+  margin-top: 6px;
+  border-radius: 6px;
+}
+
+.event-controls {
+  margin-top: 4px;
+}
+
+.event-controls button {
+  margin: 2px;
+  font-size: 10px;
+  background-color: #3366cc;
+  color: white;
+  border: none;
+  padding: 2px 4px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.footer {
+  margin-top: 20px;
+  text-align: right;
+}

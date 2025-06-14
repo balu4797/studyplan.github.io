@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Calendar with Reminders</title>
+  <link rel="stylesheet" href="cal.css" />
+</head>
+<body>
+  <div class="calendar-container">
+    <form id="reminderForm">
+      <h2>Add Reminder</h2>
+      <input type="text" id="reminderTitle" placeholder="Reminder title" required />
+      <input type="date" id="reminderDate" required />
+      <input type="time" id="reminderTime" required />
+      <input type="hidden" id="editIndex" value="-1">
+      <button type="submit" class="blue-btn">Save Reminder</button>
+    </form>
+
+    <header>
+      <div class="left">
+        <button id="prevBtn">←</button>
+        <select id="monthSelect"></select>
+        <select id="yearSelect"></select>
+        <button id="nextBtn">→</button>
+      </div>
+      <div class="right">
+        <input type="text" placeholder="Search for events" />
+        <button class="blue-btn">Find Events</button>
+        <select id="view">
+          <option>Month</option>
+        </select>
+      </div>
+    </header>
+
+    <div class="calendar" id="calendarGrid"></div>
+
+    <div class="footer">
+      <button class="export-btn">+ Export Events</button>
+    </div>
+  </div>
+
+  <script src="cal.js"></script>
+</body>
+</html>

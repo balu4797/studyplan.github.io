@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #cbefff, #e4f6ff);
+  background-image: url("https://wallpapers.com/images/featured/light-blue-aesthetic-laptop-71oypz6sl5jwiln1.jpg");
+  color: #0a2f4f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 30px;
+  text-align: center;
+  background: #ffffffcc;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 102, 204, 0.2);
+}
+
+h1 {
+  font-size: 2rem;
+  color: #005792;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th, td {
+  border: 1px solid #aad4ff;
+  padding: 12px;
+  text-align: center;
+  font-size: 1rem;
+}
+
+th {
+  background-color: #007acc;
+  color: white;
+}
+
+td[contenteditable="true"] {
+  background-color: #f0f8ff;
+}
+
+button {
+  cursor: pointer;
+  padding: 8px 15px;
+  border-radius: 6px;
+  border: none;
+}
+
+.blue-btn {
+  background-color: #007acc;
+  color: white;
+  font-weight: bold;
+}
+
+.delete-btn {
+  background-color: #ff4d4d;
+  color: white;
+}

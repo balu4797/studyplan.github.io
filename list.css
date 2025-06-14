@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #cbefff, #e4f6ff);
+  background-image: url("https://img.freepik.com/free-vector/hand-painted-watercolor-galaxy-background_23-2148973124.jpg?semt=ais_hybrid&w=740");
+  color: #0a2f4f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #004080;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 25px;
+  width: 300px;
+  background-color: #e0f3ff;
+  color: #004080;
+  outline: none;
+}
+
+form button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 20px;
+  background-color: #007acc;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+form button:hover {
+  background-color: #005fa3;
+}
+
+.time {
+  font-size: 0.85rem;
+  margin: 10px 0;
+  color: #336699;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background-color: #b3dfff;
+  color: #003366;
+  padding: 10px 15px;
+  margin: 8px auto;
+  width: 300px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 0 5px rgba(0, 128, 192, 0.2);
+}
+
+li.completed {
+  text-decoration: line-through;
+  background-color: #d9f0ff;
+}
+
+.task-actions button {
+  background: #ffffff;
+  border: 2px solid #007acc;
+  color: #007acc;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-left: 5px;
+  width: 28px;
+  height: 28px;
+  font-weight: bold;
+  font-size: 14px;
+  transition: background 0.3s, color 0.3s;
+}
+
+.task-actions button:hover {
+  background-color: #007acc;
+  color: white;
+}
+

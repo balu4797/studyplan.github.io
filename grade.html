@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Editable Subject Marks Table</title>
+  <link rel="stylesheet" href="grade.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Subjects & Marks</h1>
+    <table id="marksTable">
+      <thead>
+        <tr>
+          <th>Subject</th>
+          <th>Marks</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td contenteditable="true">Math</td>
+          <td contenteditable="true">95</td>
+          <td><button class="delete-btn">Delete</button></td>
+        </tr>
+      </tbody>
+    </table>
+    <button id="addRowBtn" class="blue-btn">Add Row</button>
+  </div>
+
+  <script src="grade.js"></script>
+</body>
+</html>
