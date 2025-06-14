@@ -2,7 +2,7 @@ body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
   background: #e6f2ff;
-  background-image: url("https://marketplace.canva.com/EAFJ-6rl9Q8/1/0/1600w/canva-blue-chalk-inspirational-quotes-desktop-wallpaper-_W9QJokBsD0.jpg") no-repeat center center/cover;
+  background-image: url("https://marketplace.canva.com/EAGB49xT5-k/2/0/900w/canva-blue-abstract-aesthetic-phone-wallpaper-6dhhP1KzjwY.jpg");
   color: #003366;
   text-align: center;
 }
@@ -19,7 +19,7 @@ body {
 /* Header section with image */
 .main-header {
   position: relative;
-  background:#003366;
+  background: url('https://wallpaperaccess.com/full/1891157.jpg') no-repeat center center/cover;
   color: white;
   padding: 100px 20px;
 }
@@ -31,6 +31,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
+  background-image: url("https://marketplace.canva.com/EAFJ-6rl9Q8/1/0/1600w/canva-blue-chalk-inspirational-quotes-desktop-wallpaper-_W9QJokBsD0.jpg");
   background-color: rgba(0, 0, 0, 0.5); /* dark overlay */
   z-index: 0;
 }
@@ -59,9 +60,9 @@ body {
 
 .btn {
   display: inline-block;
-  background-color: transparent;
+  background-color: #01274f;
   border: 2px solid #007acc;
-  color: #007acc;
+  color: #f4f4f5;
   border-radius: 25px;
   padding: 10px 25px;
   margin: 10px;
@@ -71,14 +72,21 @@ body {
 }
 
 .btn:hover {
-  background-color: #007acc;
+  background-color: #01375b;
   color: white;
 }
 
 /* Footer */
 footer {
-  background-color: #cce5ff;
+  background-image: url("https://images.pexels.com/photos/1147124/pexels-photo-1147124.jpeg?cs=srgb&dl=pexels-mattycphoto-1147124.jpg&fm=jpg");
   padding: 20px;
   font-size: 1rem;
   margin-top: 50px;
+}
+.quote-box {
+  background-color: #759ef5;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  font-size: 18px;
 }
