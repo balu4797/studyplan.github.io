@@ -16,6 +16,7 @@ body {
   border-radius: 20px;
   text-align: center;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  font-family: Fantasy;
 }
 
 .timer-buttons button {
@@ -27,6 +28,7 @@ body {
   color: white;
   font-size: 16px;
   cursor: pointer;
+  font-family: Fantasy;
 }
 
 .timer-buttons button:hover {
