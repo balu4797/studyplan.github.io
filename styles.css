@@ -18,7 +18,7 @@ body {
 /* Header section with image */
 .main-header {
   position: relative;
-  background: url('https://marketplace.canva.com/EAFJ-6rl9Q8/1/0/1600w/canva-blue-chalk-inspirational-quotes-desktop-wallpaper-_W9QJokBsD0.jpg') no-repeat center center/cover;
+  background: url("https://marketplace.canva.com/EAFJ-6rl9Q8/1/0/1600w/canva-blue-chalk-inspirational-quotes-desktop-wallpaper-_W9QJokBsD0.jpg") no-repeat center center/cover;
   color: white;
   padding: 100px 20px;
 }
